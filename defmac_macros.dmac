@@ -1,0 +1,1 @@
+#defmac `$var := $val`auto $var = $val;`
