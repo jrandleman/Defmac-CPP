@@ -24,7 +24,7 @@ g++ -o defmac defmac.cpp
 * parse `#defmac` macros, converting to regex-string pairs pushed to a vector, then map the file
 
 ### Use References:
-* [Demo Sample Execution File](https://github.com/jrandleman/Defmac-CPP/blob/master/defmac_sampleExec.cpp)</br>
+* [Demo Sample Execution File](https://github.com/jrandleman/Defmac-CPP/blob/master/defmac_sampleExec.cpp) ([Parser's Conversion Shown Here](https://github.com/jrandleman/Defmac-CPP/blob/master/defmac_sampleExec_DMAC.cpp))</br>
 * [6 Caveats for Using `defmac.cpp`](#6-caveats)
 
 ### Example:
