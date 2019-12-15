@@ -8,7 +8,7 @@
        |    /( (_/)_/ /_/ / _/ // / / ((   \_) )_\  \_) )/   ) /   )            
        (___/  \__/(__/(___)(___)\_)(___)\_____/(_)\____/(___/ (___/           
 ```
-## LISP-esque C++ Macros: Syntax Aliasing &amp; Domain-Specific Langs!
+## LISP-esque C++ Macros: Syntax Aliasing/Domain-Specific Langs Parser!
 ------------------------------------------------------------------------
 ## Using The Parser:
 ### Compile >= C++11:
