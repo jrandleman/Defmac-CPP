@@ -106,11 +106,12 @@ int main() {
  *     => IE: obj.push_alias("\v1 += \v2;", "(\w+) addeq (\d+);");            *
  *                                                                            *
  * (2) File Prefixing:                                                        *
- *     => Prefix a file certain strings (ie a library #include, fcn, etc)     *
+ *     => Prefix a file w/ certain strings (ie a library #include, fcn, etc)  *
+ *        => Useful to auto-include a set of libraries in a parsed file!      *
  *     => IE: obj.push_prefix("#include <string>");                           *
  *                                                                            *
  * (3) Header Consolidation:                                                  *
- *     => Cluster all #include's to the top of a string, systems above locals *
+ *     => Cluster all #include's to the top of a string: systems above locals *
  *     => string newBuffer = obj.cluster_buffer_headers(oldBuffer);           *
  *                                                                            *
  * (4) Map A File With Prefixes, Aliases, & Any #defmac Macros W/in:          *
